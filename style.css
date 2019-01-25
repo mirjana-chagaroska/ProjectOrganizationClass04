@@ -1,0 +1,33 @@
+main {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+nav ul {
+	display: flex;
+	list-style: none;
+	background: orange;
+	color: #fff;
+	padding: 15px;
+}
+
+nav li {
+	flex-grow: 1;
+}
+
+nav a {
+	padding: 15px;
+	background: orange;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.container {
+	display: flex;
+}
+
+.content{
+	flex-grow: 3;
+	border: 1px solid;
+}
